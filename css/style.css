@@ -1,0 +1,134 @@
+body,
+html {
+    height: 100%;
+}
+
+.lateral {
+    position: absolute;
+    background-color: brown;
+    width: 250px;
+    height: 700px;
+    margin-left: 0;
+}
+
+.bg {
+
+
+    position: absolute;
+    left: 2px;
+    opacity: 0.5;
+    z-index: 1;
+    margin-bottom: 80px;
+
+}
+
+.bg2 {
+
+    position: absolute;
+    z-index: 2;
+    left: 10%;
+    top: 20%;
+    border: 5px groove black;
+
+
+}
+
+.texte {
+    font-family: 'Abril Fatface', cursive;
+    position: absolute;
+    z-index: 3;
+    margin-top: 10%;
+    margin-left: 60%;
+
+
+}
+
+.texte2 {
+
+    font-family: 'Abril Fatface', cursive;
+    position: absolute;
+    z-index: 3;
+    margin-top: 30%;
+    margin-left: 40%;
+}
+
+.jeuxps {
+    position: absolute;
+    margin-top: 40%;
+    color: black;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+.point {
+    position: absolute;
+    text-align: center;
+    margin-left: 21%;
+    margin-top: 7px;
+
+}
+
+.recher {
+    position: absolute;
+    margin-left: 30%;
+
+}
+
+.couronne {
+    position: absolute;
+    margin-left: 60%;
+}
+
+button {
+    background-color: #60308C;
+}
+
+
+.bout {
+    position: absolute;
+    margin-left: 65%;
+}
+
+.bout1 {
+    position: absolute;
+    margin-left: 78%;
+}
+
+.bout2 {
+    position: absolute;
+    margin-left: 86%;
+}
+
+.robot {
+    position: absolute;
+    margin-left: 54%;
+}
+
+
+
+
+
+
+#texte {
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 40px;
+}
+
+
+
+}
+
+
+h3,
+p {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+}
