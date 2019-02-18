@@ -1,64 +1,120 @@
 body,
 html {
-    height: 100%;
+	height: 100%;
+
 }
 
 .lateral {
-    position: absolute;
-    background-color: brown;
-    width: 250px;
-    height: 700px;
-    margin-left: 0;
+	position: absolute;
+	background-color: #871e1c;
+	width: 250px;
+	height: 700px;
+	left: 0px;
+
+
 }
+
+.titre {
+	position: absolute;
+	margin-top: 17%;
+	left: 170px;
+	z-index: 3;
+	color: white;
+	font-family: 'Shojumaru', cursive;
+	transform: rotate(-35deg);
+
+}
+
 
 .bg {
 
 
-    position: absolute;
-    left: 2px;
-    opacity: 0.5;
-    z-index: 1;
-    margin-bottom: 80px;
+	position: absolute;
+	left: 110px;
+	opacity: 0.5;
+	z-index: 1;
+	margin-bottom: 80px;
+
+
 
 }
 
 .bg2 {
 
-    position: absolute;
-    z-index: 2;
-    left: 10%;
-    top: 20%;
-    border: 5px groove black;
+	position: absolute;
+	z-index: 2;
+	left: 9%;
+	top: 20%;
+	border: 8px groove #798A9D;
 
 
 }
 
 .texte {
-    font-family: 'Abril Fatface', cursive;
-    position: absolute;
-    z-index: 3;
-    margin-top: 10%;
-    margin-left: 60%;
+	font-family: 'Shojumaru', cursive;
+	position: absolute;
+	z-index: 3;
+	margin-top: 10%;
+	margin-left: 50%;
 
 
 }
 
 .texte2 {
 
-    font-family: 'Abril Fatface', cursive;
-    position: absolute;
-    z-index: 3;
-    margin-top: 30%;
-    margin-left: 40%;
+	font-family: 'Shojumaru', cursive;
+	position: absolute;
+	z-index: 3;
+	margin-top: 30%;
+	margin-left: 10%;
 }
 
 .jeuxps {
-    position: absolute;
-    margin-top: 40%;
-    color: black;
-    font-weight: 700;
+	position: absolute;
+	margin-top: 40%;
+	color: black;
+	font-weight: 700;
+	z-index: 3;
 
 }
+
+.logops {
+	position: absolute;
+	margin-top: 100px;
+	z-index: 4;
+	margin-left: 30px;
+}
+
+.xbox {
+	position: absolute;
+	margin-top: 200px;
+	z-index: 4;
+	margin-left: 20px;
+}
+
+.ea {
+	position: absolute;
+	margin-top: 300px;
+	z-index: 4;
+	margin-left: 20px;
+}
+
+.ps2 {
+	position: absolute;
+	margin-top: 400px;
+	z-index: 4;
+	margin-left: 20px;
+}
+
+.nintendo {
+	position: absolute;
+	margin-top: 500px;
+	z-index: 4;
+	margin-left: 20px;
+
+}
+
+
 
 
 
@@ -67,47 +123,47 @@ html {
 
 
 .point {
-    position: absolute;
-    text-align: center;
-    margin-left: 21%;
-    margin-top: 7px;
+	position: absolute;
+	text-align: center;
+	margin-left: 21%;
+	margin-top: 7px;
 
 }
 
 .recher {
-    position: absolute;
-    margin-left: 30%;
+	position: absolute;
+	margin-left: 30%;
 
 }
 
 .couronne {
-    position: absolute;
-    margin-left: 60%;
+	position: absolute;
+	margin-left: 60%;
 }
 
 button {
-    background-color: #60308C;
+	background-color: #60308C;
 }
 
 
 .bout {
-    position: absolute;
-    margin-left: 65%;
+	position: absolute;
+	margin-left: 65%;
 }
 
 .bout1 {
-    position: absolute;
-    margin-left: 78%;
+	position: absolute;
+	margin-left: 78%;
 }
 
 .bout2 {
-    position: absolute;
-    margin-left: 86%;
+	position: absolute;
+	margin-left: 86%;
 }
 
 .robot {
-    position: absolute;
-    margin-left: 54%;
+	position: absolute;
+	margin-left: 54%;
 }
 
 
@@ -116,19 +172,174 @@ button {
 
 
 #texte {
-    position: absolute;
-    z-index: 2;
-    top: 20px;
-    left: 40px;
+	position: absolute;
+	z-index: 2;
+	top: 20px;
+	left: 40px;
 }
 
 
 
+footer {
+	position: relative;
+	background: #871e1c;
+	bottom: 0;
+	width: 100%;
+	padding-top: 0;
+	height: 300px;
 }
+
+.twitter {
+	position: absolute;
+	left: 950px;
+	bottom: 30px;
+	top: 70px;
+
+}
+
+.facebook {
+	position: absolute;
+	left: 850px;
+
+}
+
+
 
 
 h3,
 p {
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
 
 }
+
+/* gallery*/
+.cart {
+	position: absolute;
+	margin-top: 60%;
+	margin-right: 10%;
+}
+
+/*fin gallery*/
+
+/*card*/
+
+/* card details start  */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i');
+
+section {
+	padding: 100px 0;
+}
+
+.details-card {
+	background: #ecf0f1;
+	margin-top: 50%;
+
+}
+
+.details-card2 {
+	background: #ecf0f1;
+	margin-top: 20px;
+
+
+}
+
+.card-content {
+	background: #ffffff;
+	border: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+
+.card-img {
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	z-index: 1;
+}
+
+.card-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.card-img span {
+	position: absolute;
+	top: 15%;
+	left: 12%;
+	background: #F9F659;
+	padding: 6px;
+	color: red;
+	font-size: 12px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	transform: translate(-50%, -50%);
+}
+
+.card-img span h4 {
+	font-size: 12px;
+	margin: 0;
+	padding: 10px 5px;
+	line-height: 0;
+}
+
+.card-desc {
+	padding: 1.25rem;
+}
+
+.card-desc h3 {
+	color: #000000;
+	font-weight: 600;
+	font-size: 1.5em;
+	line-height: 1.3em;
+	margin-top: 0;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+.card-desc p {
+	color: #747373;
+	font-size: 14px;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.btn-card {
+	background-color: #B5290E;
+	color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+	padding: .84rem 2.14rem;
+	font-size: .81rem;
+	-webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+	-o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+	margin: 0;
+	border: 0;
+	-webkit-border-radius: .125rem;
+	border-radius: .125rem;
+	cursor: pointer;
+	text-transform: uppercase;
+	white-space: normal;
+	word-wrap: break-word;
+	color: #fff;
+}
+
+.btn-card:hover {
+	background: orange;
+}
+
+a.btn-card {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* End card section */
