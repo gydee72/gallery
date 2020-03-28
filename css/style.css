@@ -8,6 +8,15 @@ html {
 		body{
 			width: auto;
 		}
+		.bg {
+			left: 40px;
+		}
+		.texte {
+			left: 60px;
+		}
+		.texte2 {
+			left: 60px;
+		}
 }
 
 .lateral {
@@ -44,6 +53,7 @@ html {
 
 
 }
+
 
 .bg2 {
 
